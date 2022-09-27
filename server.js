@@ -8,4 +8,4 @@ app.get('/',(req,res)=>{
 })
 
 
-app.listen(PORT,()=>{ ` SERVER IS LISTENING TO PORT NO : ${PORT}`})
+app.listen(PORT,()=>{ console.log(` SERVER IS LISTENING TO PORT NO : ${PORT}`)})
