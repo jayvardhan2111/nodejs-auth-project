@@ -4,6 +4,8 @@ const dotenv = require('dotenv').config()
 const app = express()
 const PORT = 4000;
 
+app.use(require('./routes/posts'))
+
 app.get('/',(req,res)=>{
     
     res.send("Hello ")
