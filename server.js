@@ -5,6 +5,9 @@ const app = express()
 const PORT = 4000;
 
 app.use(require('./routes/posts'))
+app.use(require('./routes/users'))
+app.use(require('./routes/delete'))
+app.use(require('./routes/login'))
 
 app.get('/',(req,res)=>{
     
